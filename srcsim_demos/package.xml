@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>srcsim_demos</name>
+  <version>2.1.2</version>
+  <description>
+   <p>Metapackage that contains used for Space Robotics Challenge</p>
+  </description>
+
+  <maintainer email="y-tanaka@jsk.t.u-tokyo.ac.jp">Yoshimaru Tanaka</maintainer>
+  <author email="y-tanaka@jsk.t.u-tokyo.ac.jp">Yoshimaru Tanaka</author>
+
+  <license>BSD</license>
+  <url type="website"></url>
+  <url type="repository">https://github.com/yoshimalucky/srcsim_demos</url>
+  <url type="bugtracker">https://github.com/yoshimalucky/srcsim_demos/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>srcsim</run_depend>
+  <export>
+    <metapackage/>
+  </export>
+</package>
